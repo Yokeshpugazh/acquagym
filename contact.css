@@ -1,0 +1,225 @@
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+    letter-spacing: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+   
+}
+
+.navbar{
+    height: 6em;
+}
+.container-fluid {
+    padding-top: 10px;
+    animation: head 2s ease-in-out;
+}
+@keyframes head{
+    0%{
+        transform: translateY(-100%);
+    }
+}
+.container-fluid h1 span{
+    font-family: Century Gothic;
+    
+}
+.container-fluid span{
+    font-family: Century Gothic;
+    color: red;
+    font-size: 40px;
+}
+.dropdown-menu .dropdown-item{
+    color: black;
+}
+.dropdown-menu .dropdown-item:hover{
+    color: red;
+}
+.collapse ul{
+    padding: 0px 0px 0px 40%;
+    font-size: 20px;
+    
+}
+.nav-link{
+    margin: 7px;
+}
+.phone i{
+    color: darkgray;
+    font-size: 50px;
+   border: 3px solid red;
+   width: 76px;
+   padding-left: 10px;
+   padding-top: 10px;
+   height: 76px;
+   border-radius: 5px;
+}
+
+.mail i{
+    color: darkgray;
+    font-size: 50px;
+    border: 3px solid red;
+    width: 76px;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 76px;
+    border-radius: 5px;
+
+}
+.location i{
+    color:darkgray;
+    font-size: 50px;
+    border: 3px solid red;
+    width: 76px;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 76px;
+    border-radius: 5px;
+}
+
+
+.ctct{
+    display: flex;
+    padding: 60px;
+    justify-content: space-evenly;
+}
+span{
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+.contact{
+    display: flex;
+    padding-left: 30px;
+    margin-top: 50px;
+}
+.reg{
+    padding-left: 40px;
+}
+input{
+    width: 500px;
+    font-size: 40px;
+    height: 40px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 8px;
+}
+textarea{
+width: 500px;
+padding: 10px;
+border: 2px solid black;
+font-size: 40px;
+}
+.ctct{
+  background-image: url(./images/con1.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+
+}
+.final{
+    /* background-image: url(./images/final2.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    /* opacity: 1; */
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(./images/final2.jpg);
+        display: flex;
+        margin-top: 40px;
+}
+
+.touch h4{
+color: red;
+font-weight: 600;
+font-family: Lucida Sans;
+padding: 10px;
+padding-top: 70px;
+opacity: 1;
+padding-left: 20px;
+}
+.touch {
+    padding-left: 5rem   ;
+}
+html{
+    scroll-behavior: smooth;
+}
+.touch p{
+    padding-left: 10px;
+    font-family: Century Gothic;
+    color: white;
+}
+.qlink a{
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-family:Century Gothic ;
+}
+.qlink a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.qlink{
+    
+        padding-left: 7rem;
+}
+
+.qlink h4{
+    color: red;
+    font-weight: 600;
+    font-family: Lucida Sans;
+    padding: 10px;
+    padding-top: 70px;
+    opacity: 1;
+    }
+    .partner a{
+        padding-left: 20px;
+        color: white;
+        text-decoration: none;
+        font-family:Century Gothic ;
+    }
+    .partner a:hover{
+        text-decoration: underline;
+        color: white;
+    }
+    .partner{
+        
+            padding-left: 10rem;
+    }
+    
+    .partner h4{
+        color: red;
+        font-weight: 600;
+        font-family: Lucida Sans;
+        padding: 10px;
+        padding-top: 70px;
+        opacity: 1;
+        }
+        .timings{
+        
+            padding-left: 17rem;
+    }
+    .timings h4{
+        color: red;
+        font-weight: 600;
+        font-family: Lucida Sans;
+        padding: 10px;
+        padding-top: 70px;
+        opacity: 1;
+        }
+        .timings p{
+            padding-left: 20px;
+            color: white;
+            text-decoration: none;
+            font-family:Century Gothic ;
+        }
+        .timings span{
+            color: goldenrod;
+            font-weight: 800;
+            font-size: 16px;
+        }   

@@ -275,7 +275,8 @@ width: 500px;
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
-        url(/images/final2.jpg);
+        url(./images/final2.jpg);
+        display: flex;
 }
 
 .touch h4{
@@ -285,10 +286,84 @@ font-family: Lucida Sans;
 padding: 10px;
 padding-top: 70px;
 opacity: 1;
+padding-left: 20px;
 }
-.touch p{
-    color: white;
+.touch {
+    padding-left: 5rem   ;
 }
 html{
     scroll-behavior: smooth;
 }
+.touch p{
+    padding-left: 10px;
+    font-family: Century Gothic;
+    color: white;
+}
+.qlink a{
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-family:Century Gothic ;
+}
+.qlink a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.qlink{
+    
+        padding-left: 7rem;
+}
+
+.qlink h4{
+    color: red;
+    font-weight: 600;
+    font-family: Lucida Sans;
+    padding: 10px;
+    padding-top: 70px;
+    opacity: 1;
+    }
+    .partner a{
+        padding-left: 20px;
+        color: white;
+        text-decoration: none;
+        font-family:Century Gothic ;
+    }
+    .partner a:hover{
+        text-decoration: underline;
+        color: white;
+    }
+    .partner{
+        
+            padding-left: 10rem;
+    }
+    
+    .partner h4{
+        color: red;
+        font-weight: 600;
+        font-family: Lucida Sans;
+        padding: 10px;
+        padding-top: 70px;
+        opacity: 1;
+        }
+        .timings{
+        
+            padding-left: 17rem;
+    }
+    .timings h4{
+        color: red;
+        font-weight: 600;
+        font-family: Lucida Sans;
+        padding: 10px;
+        padding-top: 70px;
+        opacity: 1;
+        }
+        .timings p{
+            padding-left: 20px;
+            color: white;
+            text-decoration: none;
+            font-family:Century Gothic ;
+        }
+        .timings span{
+            color: goldenrod;
+            font-weight: 800;
+        }
