@@ -8,8 +8,14 @@
 }
 .navbar{
     height: 6em;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: -5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .1);
+    background-color: white;
 }
-.container-fluid {
+.navbar {
     padding-top: 10px;
     animation: head 2s ease-in-out;
 }
@@ -49,13 +55,15 @@
     z-index:1 ;
     position: absolute;
    top: 3.5em;
-   left: 9em;
+   left: 2em;
    opacity: 0.6;
    letter-spacing: 20px;
    
 }
+
 .c1 .hd1{
     top: 9rem;
+  
 }
 .c1 .hd2{
     top: 15rem;
@@ -63,17 +71,6 @@
 .c1 .hd3{
     top: 22rem;
 }
-/* .c2 h1{
-   
-    z-index:1 ;
-    position: absolute;
-   top: 5.5em;
-   left: 1em;
-   opacity: 0.6;
-   letter-spacing: 15px;
-   text-shadow: 2px 2px 10px silver;
-   
-} */
 
 .c3 h1{
     font-size: 70px;
@@ -111,16 +108,18 @@ width: 500px;
     position: relative;
     bottom: 6rem;
     left: 24rem;
+    height: 300px;
 }
 .box1{
     border: 1px solid black;
-    height: 300px;
+    height: max-content;
     width: 400px;
     background-color: red;
+    
 }
 .box2{
     border: 1px solid black;
-    height: 300px;
+    height: max-content;
     width: 400px;
     background-color: black;
 }
@@ -270,13 +269,16 @@ width: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
+    /* padding: 10px; */
     /* opacity: 1; */
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
         url(./images/final2.jpg);
         display: flex;
+        background-position: 0% 0%;
+        gap: 15rem;
 }
 
 .touch h4{
@@ -288,9 +290,7 @@ padding-top: 70px;
 opacity: 1;
 padding-left: 20px;
 }
-.touch {
-    padding-left: 5rem   ;
-}
+
 html{
     scroll-behavior: smooth;
 }
@@ -309,10 +309,7 @@ html{
     text-decoration: underline;
     color: white;
 }
-.qlink{
-    
-        padding-left: 7rem;
-}
+
 
 .qlink h4{
     color: red;
@@ -332,10 +329,7 @@ html{
         text-decoration: underline;
         color: white;
     }
-    .partner{
-        
-            padding-left: 10rem;
-    }
+
     
     .partner h4{
         color: red;
@@ -345,10 +339,8 @@ html{
         padding-top: 70px;
         opacity: 1;
         }
-        .timings{
-        
-            padding-left: 17rem;
-    }
+    
+    
     .timings h4{
         color: red;
         font-weight: 600;
@@ -367,3 +359,246 @@ html{
             color: goldenrod;
             font-weight: 800;
         }
+        @media screen and (min-width:320px){
+           .c3 h1{
+            font-size: 32px;
+            width: 400px;
+           position: relative;
+           top: 20rem;
+           }
+           .reg button{
+            position: relative;
+            left: 6rem;
+            width: 140px;
+           }
+           .boxes{
+            position: relative;
+            left: 2rem;
+            width: 250px;
+            margin-top: 20px;
+            overflow-x: hidden; /* Hide horizontal scrollbar */
+            overflow-y: scroll; /* Add vertical scrollbar */
+           }
+           .box1 button{
+             position: relative;
+             left: 10px;
+
+             font-size: 10px;
+           }
+           .box2 button{
+            position: relative;
+            left: 10px;
+            font-size: 10px;
+           }
+         .c1 h1{
+            left: 0;
+            font-size: 50px;
+            padding-left: 50px;
+            
+         }
+         .table1 {
+            width: 80%;
+            border: 2px solid black;
+            margin: 40px;
+            margin-left: 17rem;
+            position: relative;
+            right: 15rem;
+            overflow-x: scroll;
+        }
+        .table{
+            font-size: xx-small;
+        }
+        #trainers{
+            display: flex;
+            flex-direction: column;
+            width: 250px;
+            position: relative;
+            left: 8em;
+        }
+        .touch h4 {
+            color: red;
+            font-weight: 600;
+            font-family: Lucida Sans;
+            padding: 10px;
+            padding-top: 70px;
+            opacity: 1;
+            padding-left: 20px;
+            font-size: 10px;
+            position: relative;
+          
+        }
+        .touch h4{
+            font-size: 20px;
+        }
+        .final{
+            display: flex;
+            flex-direction: column;
+            font-size: 10px;
+            /* overflow-y: scroll; */
+            gap: 0%;
+        }
+    }
+   @media screen and (min-width:375px){
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.55);
+        border-color: rgba(0,0,0,.1);
+        padding-right: 3em;
+    }
+    .table1 {
+        width: 75%;
+        border: 2px solid black;
+        margin: 40px;
+        margin-left: 17rem;
+        position: relative;
+        right: 16rem;
+        overflow-x: scroll;
+    }
+    #trainers {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        position: relative;
+        left: 2em;
+    }
+    .touch h4{
+        font-size: 20px;
+    }
+   }
+   @media  screen and (min-width:768px) {
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.55);
+        border-color: rgba(0,0,0,.1);
+        padding-right: 6em;
+    }
+    .c1 h1 {
+        left: 0;
+        font-size: 50px;
+        padding-left: 4em;
+    }
+    .boxes {
+        position: relative;
+        left: 5rem;
+        width: 500px;
+        margin-top: 20px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    #trainers {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        position: relative;
+        left: 13em;
+    }
+    
+   }
+   @media screen and (min-width:1024px){
+    .c1 h1{
+        left: 0;
+        font-size: 70px;
+        padding-left: 6em;
+        
+     }
+     .boxes {
+        position: relative;
+        left: 5rem;
+        width: 700px;
+        margin-top: 20px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    .box1 button {
+        position: relative;
+        left: 10px;
+        font-size: 10px;
+        margin-left: 11em;
+        margin-bottom: 10px;
+    }
+    .box2 button {
+        position: relative;
+        left: 10px;
+        font-size: 10px;
+        margin-left: 11em;
+        margin-bottom: 10px;
+    }
+    .table1{
+        width: 80%;
+        
+    }
+    .table{
+        font-size: medium;
+       
+    }
+    #trainers {
+        display: flex;
+        flex-direction: row;
+        width: 10%;
+        position: relative;
+        left: 20em;
+    }
+    .final {
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+        /* overflow-y: scroll; */
+        gap: 7%;
+        padding-left: 20px;
+    }
+    @media screen and (min-width:1440px){
+        .c1 h1 {
+            left: 0;
+            font-size: 100px;
+            padding-left: 6em;
+            
+        }
+        .boxes {
+            position: relative;
+            left: 18rem;
+            width: 100%;
+            margin-top: 20px;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            font-size: larger;
+        }
+    }
+    .box1 button {
+        position: relative;
+        left: 10px;
+        font-size: 15px;
+        margin-left: 8em;
+        margin-bottom: 10px;
+    }
+    .box2 button {
+        position: relative;
+        left: 10px;
+        font-size: 15px;
+        margin-left: 8em;
+        margin-bottom: 10px;
+   }
+   .table1{
+    width: 95%;
+    
+}
+.table{
+    font-size: larger;
+   
+}
+#trainers {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+    left: 0em;
+}
+.final {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    /* overflow-y: scroll; */
+    gap: 8%;
+    padding-left: 20px;
+}
+.touch h4{
+    font-size: larger;
+}
+   }

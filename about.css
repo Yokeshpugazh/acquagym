@@ -175,15 +175,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
+    /* padding: 10px; */
     /* opacity: 1; */
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
         url(./images/final2.jpg);
         display: flex;
-        margin-top: 7em;
-        
+        background-position: 0% 0%;
+        gap: 15rem;
+        margin-top: 20px;
 }
 
 .touch h4{
@@ -194,10 +196,9 @@ padding: 10px;
 padding-top: 70px;
 opacity: 1;
 padding-left: 20px;
+
 }
-.touch {
-    padding-left: 5rem   ;
-}
+
 html{
     scroll-behavior: smooth;
 }
@@ -216,10 +217,7 @@ html{
     text-decoration: underline;
     color: white;
 }
-.qlink{
-    
-        padding-left: 7rem;
-}
+
 
 .qlink h4{
     color: red;
@@ -239,10 +237,7 @@ html{
         text-decoration: underline;
         color: white;
     }
-    .partner{
-        
-            padding-left: 10rem;
-    }
+
     
     .partner h4{
         color: red;
@@ -252,10 +247,8 @@ html{
         padding-top: 70px;
         opacity: 1;
         }
-        .timings{
-        
-            padding-left: 17rem;
-    }
+    
+    
     .timings h4{
         color: red;
         font-weight: 600;
@@ -274,3 +267,241 @@ html{
             color: goldenrod;
             font-weight: 800;
         }
+        /* mediascreen */
+
+        @media screen and (min-width:320px){
+            .boxes {
+                display: flex;
+                justify-content: space-evenly;
+                overflow: scroll;
+                height: max-content;
+                width: 330px;
+            }
+            .box1 {
+                position: relative;
+                top: 4rem;
+                /* left: 10rem; */
+                width: 500px;
+                height: 300px;
+                background-color: gray;
+                overflow: scroll;
+            }
+            .box2 {
+                position: relative;
+                top: 4rem;
+                /* left: 10rem; */
+                width: 500px;
+                height: 300px;
+                background-color: maroon;
+                overflow: scroll;
+            }
+            .trr1 {
+                margin-top: 4rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .trr1 h3 {
+                padding-left: 40px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                color: gray;
+                font-weight: 600;
+                letter-spacing: 4px;
+                font-size: 50px;
+                margin-top: 30PX;
+            }
+            .bx h1 {
+                color: whitesmoke;
+                letter-spacing: 4px;
+                padding-top: 10px;
+                /* text-align: center; */
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                /* display: flex; */
+                /* justify-content: inherit; */
+                padding-right: 7em;
+            }
+            .bx {
+                display: flex;
+                margin-top: 6rem;
+                flex-direction: column;
+                overflow-x: hidden;
+            }
+            .s1,.s2{
+                display: flex;
+                flex-direction: column;
+                /* margin: 10px; */
+            }
+            .s1 img {
+                width: 300px;
+                padding-left: 40px;
+                margin-top: 10px;
+            }
+            .fa-solid, .fas {
+                font-weight: 900;
+                padding-right: 3.1em;
+            }
+            .touch h4 {
+                color: red;
+                font-weight: 600;
+                font-family: Lucida Sans;
+                padding: 10px;
+                padding-top: 70px;
+                opacity: 1;
+                padding-left: 20px;
+                font-size: 10px;
+                position: relative;
+              
+            }
+            .final{
+                display: flex;
+                flex-direction: column;
+                font-size: 10px;
+                /* overflow-y: scroll; */
+                gap: 0%;
+            }
+
+
+
+        }
+       @media  screen  and (min-width:375px){
+        .navbar-light .navbar-toggler {
+            color: rgba(0,0,0,.55);
+            border-color: rgba(0,0,0,.1);
+            padding-right: 3em;
+        }
+        .bx3, .bx1 h6 {
+            color: whitesmoke;
+            padding: 10px 10px;
+            font-weight: 600;
+            text-align: justify;
+            width: 300px;
+        }
+        .bx3, .bx2 h6 {
+            color: whitesmoke;
+            padding: 10px 10px;
+            font-weight: 600;
+            text-align: justify;
+            width: 320px;
+        }
+        .bxs h1 {
+            color: whitesmoke;
+            letter-spacing: 4px;
+            padding-top: 10px;
+            /* text-align: center; */
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            /* display: flex; */
+            /* justify-content: inherit; */
+            padding-right: 7em;
+        }
+        .bx3 h1{
+            padding-left: 3em;
+        }
+        .bx3 i{
+              padding-left: 2em;
+        }
+       
+       }
+        
+       @media screen and (min-width:425px){
+        .navbar-light .navbar-toggler {
+            color: rgba(0,0,0,.55);
+            border-color: rgba(0,0,0,.1);
+            padding-right: 5em;
+        }
+        
+        
+       }
+       @media screen and (min-width:768px){
+        .navbar-light .navbar-toggler {
+            color: rgba(0,0,0,.55);
+            border-color: rgba(0,0,0,.1);
+            padding-right: 10em;
+        }
+        .boxes {
+            display: flex;
+            justify-content: space-evenly;
+            overflow: scroll;
+            height: max-content;
+            width: 70%;
+            margin-left: 30px;
+        }
+        .content p {
+            padding-left: 40px;
+            padding-top: 20px;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            width: 600px;
+        }
+        
+        .s1, .s2 {
+            display: flex;
+            flex-direction: row;
+            /* margin: 10px; */
+            /* padding-right: 20px; */
+            position: relative;
+            right: 1.5em;
+        }
+        .bx3, .bx1 h6 {
+            color: whitesmoke;
+            padding: 10px 10px;
+            font-weight: 600;
+            text-align: justify;
+            width: 500px;
+        }
+        
+        
+        .bx {
+            display: flex;
+            margin-top: 6rem;
+            margin-left: 40px;
+            flex-direction: column;
+            /* overflow-x: hidden; */
+            /* width: 20px; */
+        }        
+        .bxs h1 {
+            color: whitesmoke;
+            letter-spacing: 4px;
+            padding-top: 10px;
+            /* text-align: center; */
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            /* display: flex; */
+            /* justify-content: inherit; */
+            padding-right: 0em;
+        }
+        .bx3, .bx2 h6 {
+            color: whitesmoke;
+            padding: 10px 10px;
+            font-weight: 600;
+            text-align: justify;
+            width: 520px;
+        }
+        .bx3 h1 {
+            padding-left: 0em;
+        }
+        .fa-solid, .fas {
+            font-weight: 900;
+            padding-left: 3em;
+        }
+       .bx3 .fa-business-time{
+           padding-left: 3em;
+        }
+        .final {
+            display: flex;
+            flex-direction: column;
+            font-size: 10px;
+            /* overflow-y: scroll; */
+            gap: 0%;
+        }
+        .touch h4 {
+            color: red;
+            font-weight: 600;
+            font-family: Lucida Sans;
+            padding: 10px;
+            padding-top: 70px;
+            opacity: 1;
+            padding-left: 20px;
+            font-size: 20px;
+            position: relative;
+          
+        }
+       }
