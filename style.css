@@ -366,6 +366,18 @@ html{
            position: relative;
            top: 20rem;
            }
+           element.style {
+            object-fit: cover;
+        }
+        element.style {
+            object-fit: cover;
+        }
+        element.style {
+            object-fit: cover;
+        }
+        element.style {
+            object-fit: cover;
+        }
            .reg button{
             position: relative;
             left: 6rem;
@@ -408,12 +420,12 @@ html{
         .table{
             font-size: xx-small;
         }
-        #trainers{
+        #trainers {
             display: flex;
             flex-direction: column;
             width: 250px;
             position: relative;
-            left: 8em;
+            left: 2em;
         }
         .touch h4 {
             color: red;
