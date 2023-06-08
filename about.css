@@ -360,9 +360,11 @@ html{
                 padding-top: 70px;
                 opacity: 1;
                 padding-left: 20px;
-                font-size: 10px;
+                font-size: 19px;
                 position: relative;
-              
+                padding-right: -73%;
+                position: relative;
+                right: 3%;
             }
             .final {
                 display: flex;
@@ -381,6 +383,12 @@ html{
                 line-height: 1.2;
                 width: 250px;
             }
+            .navbar-light .navbar-toggler {
+                color: rgba(0,0,0,.55);
+                border-color: rgba(0,0,0,.1);
+                margin-left: 81%;
+                margin-top: -15%;
+            }
 
 
         }
@@ -397,6 +405,7 @@ html{
             text-align: justify;
             width: 300px;
         }
+        
         .bx3, .bx2 h6 {
             color: whitesmoke;
             padding: 10px 10px;
@@ -437,13 +446,21 @@ html{
             text-align: justify;
             width: 400px;
         }
+        .final {
+            display: flex;
+            flex-direction: column;
+            font-size: 26px;
+            /* overflow-y: scroll; */
+            gap: 5%;
+            width: 100%;
+        }
        }
         
        @media screen and (min-width:425px){
         .navbar-light .navbar-toggler {
             color: rgba(0,0,0,.55);
             border-color: rgba(0,0,0,.1);
-            padding-right: 5em;
+            padding-right: 1em;
         }
         .boxes {
             display: flex;
@@ -545,15 +562,17 @@ html{
         .navbar-light .navbar-toggler {
             color: rgba(0,0,0,.55);
             border-color: rgba(0,0,0,.1);
-            padding-right: 10em;
+            padding-right: -1em;
         }
+        
+        
         .boxes {
             display: flex;
             justify-content: space-evenly;
-            overflow: scroll;
+            /* overflow: scroll; */
             height: max-content;
             width: 70%;
-            margin-left: 30px;
+            margin-left: 16%;
         }
         .content p {
             padding-left: 40px;
@@ -563,14 +582,7 @@ html{
             width: 600px;
         }
         
-        .s1, .s2 {
-            display: flex;
-            flex-direction: row;
-            /* margin: 10px; */
-            /* padding-right: 20px; */
-            position: relative;
-            right: .5em;
-        }
+       
         .bx3, .bx1 h6 {
             color: whitesmoke;
             padding: 10px 10px;
@@ -593,11 +605,10 @@ html{
             color: whitesmoke;
             letter-spacing: 4px;
             padding-top: 10px;
-            /* text-align: center; */
+            position: relative;
+            left: 20x;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            /* display: flex; */
-            /* justify-content: inherit; */
-            padding-right: 0em;
+            
         }
         .bx3, .bx2 h6 {
             color: whitesmoke;
@@ -607,23 +618,35 @@ html{
             width: 520px;
         }
         .bx3 h1 {
-            padding-left: 0em;
+            padding-left: 5.5em;
         }
         .fa-solid, .fas {
             font-weight: 900;
-            padding-left: 2em;
+            padding-right: 24%;
         }
+
        .bx3 .fa-business-time{
-           padding-left: 2em;
+           padding-left: 1em;
+        }
+        .trr1 h3 {
+            padding-left: 40px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: gray;
+            font-weight: 600;
+            letter-spacing: 4px;
+            font-size: 50px;
+            margin-top: 30PX;
+            width: 100%;
         }
         .final {
             display: flex;
             flex-direction: column;
-            font-size: 10px;
+            font-size: 20px;
             /* overflow-y: scroll; */
             gap: 0%;
-            width: 700px;
+            width: 100%;
         }
+        
         .touch h4 {
             color: red;
             font-weight: 600;
@@ -650,6 +673,9 @@ html{
             position: relative;
             right: 4em;
         }
+        .container-fluid h1{
+           width: 270px;
+        }
         .boxes {
             display: flex;
             justify-content: space-evenly;
@@ -662,11 +688,19 @@ html{
 
 
         }
+      
         .trr1 {
-            margin-top: 4rem;
+            margin-top: -8rem;
             display: flex;
             flex-direction: row;
             justify-content: center;
+            margin-left: 1%;
+            position: relative;
+            left: 5%;
+        }
+        .bx3 h1 {
+            padding-left: 90px;
+            margin-top: -4%;
         }
         .timg img {
             position: relative;
@@ -703,31 +737,29 @@ html{
             right: 1.7em;
         }
         .s1 img {
-            width: 310px;
-            padding-left: 40px;
+            width: 331px;
+            padding-left: 41px;
             margin-top: 10px;
         }
+        
+        
+        
         .s2 img {
-            width: 310px;
+            width: 331px;
             padding-left: 40px;
             margin-top: 10px;
+            /* gap: 2%; */
         }
         .bx {
             display: flex;
             margin-top: 6rem;
-            margin-left: 16em;
-            flex-direction: column;
-            /* overflow-x: hidden; */
-            /* width: 20px; */
-        }
-        .final {
-            display: flex;
+            margin-left: em;
             flex-direction: row;
-            font-size: 14px;
-            /* overflow-y: scroll; */
-            gap: 6%;
-            width: 1040px;
+            /* overflow-x: hidden; */
+            width: 100%;
         }
+       
+        
         .box2 {
             position: relative;
             top: 4rem;
@@ -736,6 +768,10 @@ html{
             height: 300px;
             background-color: maroon;
             /* overflow: scroll; */
+        }
+        .final {
+            flex-direction: row;
+            gap: 0%;
         }
         .box1 {
             position: relative;
@@ -754,8 +790,25 @@ html{
             font-weight: 900;
             font-family: Century Gothic;
         }
+        .bx3, .bx2 h6 {
+            color: whitesmoke;
+            padding: 10px 10px;
+            font-weight: 600;
+            text-align: justify;
+            width: 305px;
+        }
+        .bx1 h6 {
+            color: whitesmoke;
+            padding: 10px 10px;
+            font-weight: 600;
+            text-align: justify;
+            width: 305px;
+        }
+        .bxs {
+            width: 310px;
        }
-       @media screen and (min-width:1330){
+    }
+       @media screen and (min-width:1440){
         .boxes {
             display: flex;
             justify-content: space-evenly;
@@ -767,6 +820,24 @@ html{
             left: 4em;
             font-size: 20px;
         }
+        .container-fluid h1 {
+            width: 270px;
+        }
+        .timg img {
+    position: relative;
+    top: 8em;
+    right: 11m;
+    height: 605px;
+}
+ .final {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    /* overflow-y: scroll; */
+    gap: 4%;
+    width: 100%;
+}
+        
         .box1 {
             position: relative;
             top: 4rem;
@@ -785,24 +856,19 @@ html{
             background-color: maroon;
             /* overflow: scroll; */
         }
-        .bx{
-            display: flex;
-            flex-direction: row;
-        }
+      
         .bx {
             display: flex;
             margin-top: 6rem;
-            /* margin-left: 16em; */
+            margin-left: 16em;
             flex-direction: row;
             /* overflow-x: hidden; */
-            /* width: 20px; */
-        }
-        .final {
-            display: flex;
-            flex-direction: row;
-            font-size: 24px;
-            /* overflow-y: scroll; */
-            gap: 7%;
             width: 100%;
         }
-       }
+          
+        }
+       
+        
+        
+     
+       

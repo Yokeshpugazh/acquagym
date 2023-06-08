@@ -487,6 +487,22 @@ html{
         font-size: 50px;
         padding-left: 4em;
     }
+    .table{
+    --bs-table-bg: transparent;
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: #212529;
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+    --bs-table-active-color: #212529;
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: #212529;
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    vertical-align: top;
+    border-color: #dee2e6;
+    font-size: medium;
+}
     .boxes {
         position: relative;
         left: 5rem;
@@ -502,6 +518,15 @@ html{
         position: relative;
         left: 13em;
     }
+    .table1 {
+        width: 75%;
+        border: 2px solid black;
+        margin: 40px;
+        margin-left: 22rem;
+        position: relative;
+        right: 16rem;
+        overflow-x: scroll;
+    }
     
    }
    @media screen and (min-width:1024px){
@@ -511,6 +536,17 @@ html{
         padding-left: 6em;
         
      }
+     .container-fluid h1{
+        
+            font-size: calc(1.375rem + 1.5vw);
+            width: 100%;
+        
+     }
+     .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        margin-right: 20%;
+    }
      .boxes {
         position: relative;
         left: 5rem;
@@ -533,10 +569,16 @@ html{
         margin-left: 11em;
         margin-bottom: 10px;
     }
-    .table1{
-        width: 80%;
-        
+    .table1 {
+        width: 95%;
+        margin-left: 29%;
     }
+    .d-flex input{
+            width: 200px; 
+            padding-left: 20px;
+      
+        }
+    
     .table{
         font-size: medium;
        
@@ -551,11 +593,19 @@ html{
     .final {
         display: flex;
         flex-direction: row;
-        font-size: 10px;
+        font-size: 15px;
         /* overflow-y: scroll; */
-        gap: 7%;
+        gap: 8%;
         padding-left: 20px;
+        font-size: small;
     }
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        position: relative;
+        right: 14%;
+    }
+    
+       
     @media screen and (min-width:1440px){
         .c1 h1 {
             left: 0;
@@ -568,8 +618,8 @@ html{
             left: 18rem;
             width: 100%;
             margin-top: 20px;
-            overflow-x: hidden;
-            overflow-y: scroll;
+            /* overflow-x: hidden;
+            overflow-y: scroll; */
             font-size: larger;
         }
     }
@@ -587,9 +637,9 @@ html{
         margin-left: 8em;
         margin-bottom: 10px;
    }
-   .table1{
-    width: 95%;
-    
+   .table1 {
+    width: 87%;
+    margin-left: 22%;
 }
 .table{
     font-size: larger;
@@ -605,10 +655,10 @@ html{
 .final {
     display: flex;
     flex-direction: row;
-    font-size: 25px;
+    font-size: 12px;
     /* overflow-y: scroll; */
-    gap: 8%;
-    padding-left: 20px;
+    gap: 10%;
+    padding-left: 15px;
 }
 .touch h4{
     font-size: larger;
